@@ -1,4 +1,5 @@
 class Dog
+  attr_accessible name
   def initialize(name, breed = "Mutt")
     @breed = breed
     @name = name
@@ -9,6 +10,5 @@ class Dog
   def breed
     @breed
   end
-  attr_accessible name
   
 end
